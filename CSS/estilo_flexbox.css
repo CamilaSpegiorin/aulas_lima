@@ -21,3 +21,89 @@
     text-align: center;
     color:azure;
 }
+
+.flex{
+    display: flex;
+    /* Define a direção dos elementos */
+    flex-direction: column;
+}
+
+.flex > div > img {
+    height: 50px;
+    width: 50px;
+}
+
+.div-coluna {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(117, 249, 249);
+}
+
+.secao {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: rgb(240, 153, 208);
+    /* Coloca espaço entre os elementos */
+    gap: 10px;
+
+}
+
+.secao-imagem {
+    width: 150px;
+    height: 150px;
+
+}
+
+.alinhar-esquerda {
+    display: flex;
+    flex-direction: row;
+    /* alinha os elementos ao inicio */
+    justify-content: flex-start;
+}
+
+.alinhar-centro {
+    display: flex;
+    flex-direction: row;
+    /* alinha os elemnetos ao centro */
+    justify-content: center;
+}
+
+.alinhar-direita {
+    display: flex;
+    flex-direction: row;
+    /* alinha os elemnetos a direita */
+    justify-content: flex-end;
+}
+
+.alinhar-entre {
+    display: flex;
+    flex-direction: row;
+    /* Aloca os elementos nas pontas e ajusta
+    os elementos do centro */
+}
+
+.alinhar-redor {
+    display: flex;
+    flex-direction: row;
+    /*Distribui os itens com espaço ao redor deles */
+    justify-content: space-around;
+}
+
+.alinhar-coluna {
+    display: flex;
+    flex-direction: column;
+    /* Distribui os itens com espaço ao redor deles*/
+    align-items: center;
+    width: 100%;
+    background-color: rgb(139, 230, 199);
+}.alinhar-itens-centro {
+    display: flex;
+    flex-direction: row;
+    /*Distribui os itens com espaço ao redor deles*/
+    height: 200px;
+    background-color: rgb(97, 97, 243);
+    align-items: center;
+    justify-content: space-between;
+}
+
